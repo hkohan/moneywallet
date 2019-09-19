@@ -1,8 +1,6 @@
 package com.oriondev.moneywallet.storage.database.data.csv;
 
-/**
- * Created by andrea on 21/12/18.
- */
+
 
 /*package-local*/ class Constants {
 

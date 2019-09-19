@@ -12,9 +12,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Date;
 
-/**
- * Created by andrea on 21/12/18.
- */
+
 
 public abstract class AbstractDataExporter {
 

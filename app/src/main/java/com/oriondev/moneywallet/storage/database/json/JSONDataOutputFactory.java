@@ -1,22 +1,3 @@
-/*
- * Copyright (c) 2018.
- *
- * This file is part of MoneyWallet.
- *
- * MoneyWallet is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * MoneyWallet is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
- */
-
 package com.oriondev.moneywallet.storage.database.json;
 
 import com.oriondev.moneywallet.storage.database.model.Attachment;
@@ -48,9 +29,7 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 
-/**
- * Created by andrea on 28/10/18.
- */
+
 /*package-local*/ class JSONDataOutputFactory {
 
     private final HashMap<Long, String> mCacheWallets = new HashMap<>();

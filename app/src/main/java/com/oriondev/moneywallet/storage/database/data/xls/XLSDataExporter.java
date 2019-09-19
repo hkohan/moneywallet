@@ -26,9 +26,7 @@ import jxl.write.WritableSheet;
 import jxl.write.WritableWorkbook;
 import jxl.write.WriteException;
 
-/**
- * Created by andrea on 22/12/18.
- */
+
 public class XLSDataExporter extends AbstractDataExporter {
 
     private final File mOutputFile;

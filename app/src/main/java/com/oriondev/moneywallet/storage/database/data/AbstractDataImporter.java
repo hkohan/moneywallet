@@ -24,9 +24,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-/**
- * Created by andrea on 23/12/18.
- */
+
 public abstract class AbstractDataImporter {
 
     private final Context mContext;

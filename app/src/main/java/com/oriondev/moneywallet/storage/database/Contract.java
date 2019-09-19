@@ -1,22 +1,3 @@
-/*
- * Copyright (c) 2018.
- *
- * This file is part of MoneyWallet.
- *
- * MoneyWallet is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * MoneyWallet is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
- */
-
 package com.oriondev.moneywallet.storage.database;
 
 import android.text.TextUtils;
@@ -27,12 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-/**
- * This class contains all the static strings that are part of the results returned by the internal
- * content provider. It will virtually modify the structure of the database and return the items
- * in a different format. The application must use the virtual tables defined in this class when a
- * component interact with the {@link DataContentProvider}.
- */
+
 public class Contract {
 
     public static final class Currency {

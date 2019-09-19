@@ -1,22 +1,3 @@
-/*
- * Copyright (c) 2018.
- *
- * This file is part of MoneyWallet.
- *
- * MoneyWallet is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * MoneyWallet is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
- */
-
 package com.oriondev.moneywallet.storage.database.json;
 
 import com.oriondev.moneywallet.storage.database.model.*;
@@ -26,12 +7,7 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * This class acts as object factory and mapping between the JSONObjects and
- * the native database objects. It also uses an internal cache to correctly
- * handle the mapping between the UUID that are used as identifiers in the
- * json file and native longs that are used as id inside the database.
- */
+
 /*package-local*/ class JSONDataInputFactory {
 
     private final Map<String, Long> mCacheWallets = new HashMap<>();

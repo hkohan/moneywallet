@@ -18,9 +18,7 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.Map;
 
-/**
- * Created by andrea on 23/12/18.
- */
+
 public class CSVDataImporter extends AbstractDataImporter {
 
     private final CSVReaderHeaderAware mReader;

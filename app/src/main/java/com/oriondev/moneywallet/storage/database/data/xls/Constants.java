@@ -1,8 +1,6 @@
 package com.oriondev.moneywallet.storage.database.data.xls;
 
-/**
- * Created by andrea on 22/12/18.
- */
+
 /*package-local*/ class Constants {
 
     /*package-local*/ static final String COLUMN_DATETIME = "datetime";

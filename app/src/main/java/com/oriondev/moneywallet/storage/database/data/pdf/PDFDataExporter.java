@@ -30,9 +30,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by andrea on 22/12/18.
- */
+
 public class PDFDataExporter extends AbstractDataExporter {
 
     private final File mOutputFile;

@@ -19,9 +19,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by andrea on 21/12/18.
- */
+
 public class CSVDataExporter extends AbstractDataExporter {
 
     private final File mOutputFile;
