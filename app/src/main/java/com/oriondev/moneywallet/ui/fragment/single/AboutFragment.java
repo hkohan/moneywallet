@@ -110,7 +110,7 @@ public class AboutFragment extends MaterialAboutFragment {
 
                             @Override
                             public void onClick() {
-                                Uri uri = Uri.parse("market://details?id=" + context.getPackageName());
+                                Uri uri = Uri.parse("market://details?id=" + "com.kohan.moneywallet");
                                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY | Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
                                 try {
