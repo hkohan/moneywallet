@@ -1,22 +1,3 @@
-/*
- * Copyright (c) 2018.
- *
- * This file is part of MoneyWallet.
- *
- * MoneyWallet is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * MoneyWallet is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
- */
-
 package com.oriondev.moneywallet.background;
 
 import android.content.Context;
@@ -38,17 +19,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-/**
- * This class is used by the IconListActivity to fetch all the available icons and organize
- * them inside a list of IconGroup items. The list of available icons is statically described
- * by the icons_old.json file inside the assets/resources directory of the project.
- * When a new buildMaterialDialog is performed, the developer should check that all the icons inside this file
- * are available inside the drawable directory of the project.
- *
- * NB: This project is open source but the icon pack used is not free to use and the license
- * of the author explicitly says that those icons cannot be released in public. For this reason
- * the public repository has very few icons (only the ones that are license-free).
- */
 public class IconGroupLoader extends AbstractGenericLoader<List<IconGroup>> {
 
     public IconGroupLoader(Context context) {
