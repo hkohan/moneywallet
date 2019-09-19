@@ -30,9 +30,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Created by andrea on 20/12/18.
- */
+
 public class ImportExportIntentService extends IntentService {
 
     public static final String MODE = "ImportExportIntentService::Arguments::Mode";
