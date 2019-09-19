@@ -13,9 +13,7 @@ import com.oriondev.moneywallet.R;
 import com.oriondev.moneywallet.storage.database.data.AbstractDataExporter;
 import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
 
-/**
- * Created by andrea on 21/12/18.
- */
+
 public class ExportColumnsDialogFragment extends DialogFragment {
 
     private static final String SS_CURRENT_INDICES = "ExportColumnsDialogFragment::SavedState::CurrentIndices";

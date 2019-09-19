@@ -12,9 +12,7 @@ import com.oriondev.moneywallet.model.DataFormat;
 import com.oriondev.moneywallet.ui.adapter.recycler.DataFormatSelectorAdapter;
 import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
 
-/**
- * Created by andrea on 20/12/18.
- */
+
 
 public class DataFormatPickerDialog extends DialogFragment implements DataFormatSelectorAdapter.Controller {
 
