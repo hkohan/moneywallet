@@ -9,9 +9,7 @@ import android.support.v4.app.FragmentManager;
 
 import com.oriondev.moneywallet.ui.fragment.dialog.ExportColumnsDialogFragment;
 
-/**
- * Created by andrea on 21/12/18.
- */
+
 public class ExportColumnsPicker extends Fragment implements ExportColumnsDialogFragment.Callback {
 
     private static final String SS_CURRENT_INDICES = "ExportColumnsPicker::SavedState::CurrentIndices";
