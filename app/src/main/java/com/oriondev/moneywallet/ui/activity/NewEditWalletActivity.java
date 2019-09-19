@@ -1,22 +1,3 @@
-/*
- * Copyright (c) 2018.
- *
- * This file is part of MoneyWallet.
- *
- * MoneyWallet is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * MoneyWallet is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
- */
-
 package com.oriondev.moneywallet.ui.activity;
 
 import android.app.Activity;
@@ -50,14 +31,7 @@ import com.oriondev.moneywallet.utils.CurrencyManager;
 import com.oriondev.moneywallet.utils.IconLoader;
 import com.oriondev.moneywallet.utils.MoneyFormatter;
 
-/**
- * This class is buildMaterialDialog on top of {@link NewEditItemActivity} and let the user to create a new wallet
- * or edit an existing one inside the database storage through the use of the {@link DataContentProvider}.
- * The activity uses the following pickers to retrieve information from the user:
- * - {@link IconPicker} to create or select an icon for the wallet.
- * - {@link CurrencyPicker} to select the currency of the wallet.
- * - {@link MoneyPicker} to insert the starting amount of money for the wallet.
- */
+
 public class NewEditWalletActivity extends NewEditItemActivity implements IconPicker.Controller, CurrencyPicker.Controller, MoneyPicker.Controller {
 
     private static final String TAG_ICON_PICKER = "NewEditWalletActivity::Tag::IconPicker";

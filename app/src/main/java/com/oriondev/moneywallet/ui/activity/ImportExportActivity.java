@@ -43,9 +43,7 @@ import com.oriondev.moneywallet.utils.DateFormatter;
 import java.util.Date;
 import java.util.Locale;
 
-/**
- * Created by andrea on 19/12/18.
- */
+
 public class ImportExportActivity extends SinglePanelActivity implements ImportExportFormatPicker.Controller, DateTimePicker.Controller, WalletPicker.MultiWalletController, LocalFilePicker.Controller, ExportColumnsPicker.Controller {
 
     public static final String MODE = "ImportExportActivity::Argument::Mode";

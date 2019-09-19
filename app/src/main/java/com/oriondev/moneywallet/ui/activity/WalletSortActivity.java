@@ -28,9 +28,7 @@ import com.oriondev.moneywallet.ui.view.AdvancedRecyclerView;
 
 import java.util.List;
 
-/**
- * Created by andrea on 05/01/19.
- */
+
 
 public class WalletSortActivity extends SinglePanelSimpleListActivity implements WalletSortCursorAdapter.WalletSortListener {
 

@@ -27,9 +27,7 @@ import com.oriondev.moneywallet.ui.view.AdvancedRecyclerView;
 
 import java.util.List;
 
-/**
- * Created by andrea on 27/12/18.
- */
+
 public class CategorySortActivity extends SinglePanelSimpleListActivity implements CategorySortCursorAdapter.CategorySortListener {
 
     public static final String TYPE = "CategorySortActivity::Arguments::CategoryType";
