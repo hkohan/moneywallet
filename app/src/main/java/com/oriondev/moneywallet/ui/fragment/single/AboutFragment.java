@@ -104,25 +104,6 @@ public class AboutFragment extends MaterialAboutFragment {
                         .build()
                 )
                 .addItem(new MaterialAboutActionItem.Builder()
-                        .icon(R.drawable.ic_favorite_border_black_24dp)
-                        .text(R.string.about_hint_support)
-                        .setOnClickAction(new MaterialAboutItemOnClickAction() {
-
-                            @Override
-                            public void onClick() {
-                                /*
-                                try {
-                                    JSONObject repositoryObj = aboutObj.getJSONObject("repository");
-                                    Uri uri = Uri.parse(repositoryObj.getString("donation_url"));
-                                    startActivity(new Intent(Intent.ACTION_VIEW, uri));
-                                } catch (ActivityNotFoundException | JSONException ignore) {}*/
-                                startActivity(new Intent(getActivity(), DonationActivity.class));
-                            }
-
-                        })
-                        .build()
-                )
-                .addItem(new MaterialAboutActionItem.Builder()
                         .icon(R.drawable.ic_star_black_24dp)
                         .text(R.string.about_hint_rate_app)
                         .setOnClickAction(new MaterialAboutItemOnClickAction() {
