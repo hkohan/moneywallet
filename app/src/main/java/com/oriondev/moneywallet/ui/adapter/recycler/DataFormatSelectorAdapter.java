@@ -11,9 +11,7 @@ import android.widget.TextView;
 import com.oriondev.moneywallet.R;
 import com.oriondev.moneywallet.model.DataFormat;
 
-/**
- * Created by andrea on 20/12/18.
- */
+
 public class DataFormatSelectorAdapter extends RecyclerView.Adapter<DataFormatSelectorAdapter.ViewHolder> {
 
     private final DataFormat[] mDataFormats;
