@@ -313,9 +313,9 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
                 case ID_SECTION_BANK:
                     showBankSearchDialog();
                     break;
-                case ID_SECTION_SUPPORT_DEVELOPER:
+                /*case ID_SECTION_SUPPORT_DEVELOPER:
                     startActivity(new Intent(this, DonationActivity.class));
-                    break;
+                    break; */
                 case ID_SECTION_ABOUT:
                     startActivity(new Intent(this, AboutActivity.class));
                     break;
