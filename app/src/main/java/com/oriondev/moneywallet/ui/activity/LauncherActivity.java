@@ -20,6 +20,7 @@ import com.oriondev.moneywallet.storage.preference.PreferenceManager;
 import com.oriondev.moneywallet.ui.activity.base.ThemedActivity;
 import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
 import com.pnikosis.materialishprogress.ProgressWheel;
+import co.ronash.pushe.Pushe;
 
 
 public class LauncherActivity extends ThemedActivity {
@@ -35,6 +36,7 @@ public class LauncherActivity extends ThemedActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Pushe.initialize(this,true);
         if (UpgradeLegacyEditionIntentService.isLegacyEditionDetected(this)) {
             setContentView(R.layout.activity_launcher_legacy_edition_upgrade);
             mProgressWheel = findViewById(R.id.progress_wheel);
