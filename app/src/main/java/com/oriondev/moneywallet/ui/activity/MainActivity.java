@@ -155,7 +155,6 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
                         createDrawerItem(ID_SECTION_BANK, R.drawable.ic_account_balance_24dp, R.string.menu_search_bank),
                         new DividerDrawerItem(),
                         createDrawerItem(ID_SECTION_SETTING, R.drawable.ic_settings_24dp, R.string.menu_setting),
-                        createDrawerItem(ID_SECTION_SUPPORT_DEVELOPER, R.drawable.ic_favorite_border_black_24dp, R.string.menu_support_developer),
                         createDrawerItem(ID_SECTION_ABOUT, R.drawable.ic_info_outline_24dp, R.string.menu_about)
                 )
                 .withOnDrawerItemClickListener(this)
